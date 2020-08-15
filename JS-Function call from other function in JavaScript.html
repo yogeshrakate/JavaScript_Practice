@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		Function call from other function in JavaScript
+	</head>
+	<br />
+	<body>
+		<script type='text/javascript'>
+			function firstfun(){
+				document.write("This is first function");
+			};
+			
+			function secondfun(){
+				document.write("and this is second function");
+			};
+			
+			function allfun(){
+				firstfun();
+				document.write("<br />")
+				secondfun();
+			};
+			
+			allfun();
+		</script>
+	
+	</body>
+</html>

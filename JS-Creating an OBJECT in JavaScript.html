@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		Creating an OBJECT(instance) in JavaScript
+		<br />
+		<script type='text/javascript'>
+			function person(name, age){
+				this.name=name
+				this.age=age;
+			}								//this is constructor function
+			var me = new person("Yogesh", 30);
+			var you = new person("Sagar", 29);
+			
+		</script>
+	</head>
+	<br />
+	<body>
+		<script type='text/javascript'>
+			document.write(me.name+"<br/>");
+			document.write(you.name+"<br/>");
+			document.write(me.age+"<br/>");
+			document.write(you.age+"<br/>");
+		</script>
+	
+	</body>
+</html>
